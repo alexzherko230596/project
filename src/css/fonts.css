@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.eot');
+    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Bold.woff') format('woff'),
+    url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+@font-face {
+font-family: 'Roboto';
+src: url('../font/Roboto-Light.eot');
+src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Roboto-Light.woff') format('woff'),
+url('../fonts/Roboto-Light.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?nel5w7');
+    src:  url('../fonts/icomoon.eot?nel5w7#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?nel5w7') format('truetype'),
+      url('../fonts/icomoon.woff?nel5w7') format('woff'),
+      url('../fonts/icomoon.svg?nel5w7#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    /* speak: never; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 0;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-linkedin:before {
+    content: "\eac9";
+  }
