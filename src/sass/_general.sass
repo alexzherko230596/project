@@ -8,6 +8,11 @@ nav
     width: 100%
     height: 50px
     background-color: #212121
+    .header_burger
+        display: none
+    .header_close
+        display: none
+
 .menu
     display: flex
     justify-content: space-between
@@ -18,6 +23,8 @@ nav
     &_link
         font-size: 15px
         font-weight: 500
+        color: #ffffff
+        text-decoration: none
     &_item
         border-right: 2px solid black
         padding-right: 28px
@@ -53,6 +60,8 @@ nav
         text-align: right
         text-transform: uppercase
         color: #ffffff
+        &_visible
+            display: none
     .subheader_btn
         width: 172px
         height: 46px
@@ -117,6 +126,7 @@ nav
 .reasons
     padding: 71px 0 65px 0
     .reasons_btn
+        border: none
         display: block
         margin: 0 auto
         height: 24px
